@@ -4,21 +4,168 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Conquering responsive layouts final challenge</title>
   </head>
   <body>
     <header>
       <nav class="nav">
         <div class="container">
-          <ul class="item-list">
-            <li class="list-items"><a href="">Home</a></li>
-            <li class="list-items"><a href="">About</a></li>
-            <li class="list-items"><a href="">Contact</a></li>
-            <li class="list-items"><a href="">Sign in</a></li>
-            <li class="list-items list-items-button"><a href="">Sign up</a></li>
+          <div class="logo">
+            <img src="images/logo.png" alt="" />
+          </div>
+          <ul class="nav-item-list">
+            <input type="checkbox" name="" id="checkbox-toggle" />
+            <label for="checkbox-toggle" class="hamburger">&#9776;</label>
+            <div class="nav-links">
+              <li class="nav-list-items"><a href="">Home</a></li>
+              <li class="nav-list-items"><a href="">About</a></li>
+              <li class="nav-list-items"><a href="">Contact</a></li>
+              <li class="nav-list-items"><a href="">Sign in</a></li>
+              <li class="nav-list-items list-items-button">
+                <a href="">Sign up</a>
+              </li>
+            </div>
           </ul>
         </div>
       </nav>
     </header>
+
+    <section class="hero">
+      <div class="container">
+        <h1>responsive layouts don't have to be a struggle</h1>
+        <div class="hero-text">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+            vitae maxime incidunt a, et nemo hic pariatur natus eum labore.
+          </p>
+          <a href="" class="hero-btn">I want to learn</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <div class="feature-texts">
+          <h2>Mobile-first</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+        </div>
+        <div class="feature-texts">
+          <h2>Efficient</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+        </div>
+        <div class="feature-texts">
+          <h2>Done right</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <main class="main">
+      <div class="container">
+        <div class="main-text">
+          <h2>It doesn't have to be so hard</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam.
+          </p>
+          <div class="img">
+            <img src="images/the-image.jpg" alt="A website layout design" />
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam.
+          </p>
+        </div>
+
+        <div class="tips">
+          <div class="tip-boxes">
+            <h2>Break it down</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="tip-boxes">
+            <h2>Work your way up</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="tip-boxes">
+            <h2>Break it down</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <h2>Just scratching the surface</h2>
+        <div class="footer-comps">
+          <h3>About our company</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+        </div>
+        <div class="footer-comps">
+          <h3>Getting started</h3>
+          <ul class="footer-nav-list">
+            <li class="footer-nav-list-items"><a href="">Home</a></li>
+            <li class="footer-nav-list-items"><a href="">About</a></li>
+            <li class="footer-nav-list-items"><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-comps">
+          <h3>Other things</h3>
+          <ul class="footer-nav-list">
+            <li class="footer-nav-list-items"><a href="">Lorem ipsum</a></li>
+            <li class="footer-nav-list-items"><a href="">dolor</a></li>
+            <li class="footer-nav-list-items"><a href="">sit amet</a></li>
+            <li class="footer-nav-list-items"><a href="">consectetur</a></li>
+          </ul>
+        </div>
+        <div class="footer-comps">
+          <h3>And more</h3>
+          <ul class="footer-nav-list">
+            <li class="footer-nav-list-items"><a href="">Lorem ipsum</a></li>
+            <li class="footer-nav-list-items"><a href="">dolor</a></li>
+            <li class="footer-nav-list-items"><a href="">Sit amet</a></li>
+            <li class="footer-nav-list-items"><a href="">consectetur</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
